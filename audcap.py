@@ -1,6 +1,5 @@
 import speech_recognition as sr
 import os
-import pyttsx3
 from gtts import gTTS
 
 
@@ -113,6 +112,6 @@ def getaudio():
     mic=sr.Microphone()
     with mic as source:
         audio = r.listen(source)    
-    response = r.recognize_google(audio)
+    response = r.recognize_sphinx(audio)
     return response
 main()
