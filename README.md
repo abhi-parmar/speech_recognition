@@ -2,11 +2,11 @@
 system calls using speech recognition
 
 Requires:
-  pip3 install gtts
-  pip3 install speech_recognition
-  pip3 install pocketsphinx
-  
-  sudo apt-get install mpg321
-  sudo apt-get install swig
-  sudo apt-get install python3-pyaudio
+  pip3 install gtts<br/>
+  pip3 install speech_recognition<br/>
+  pip3 install pocketsphinx<br/>
+  <br/><br/>
+  sudo apt-get install mpg321<br/>
+  sudo apt-get install swig<br/>
+  sudo apt-get install python3-pyaudio<br/>
   
